@@ -9,11 +9,33 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-
+.clamp__section{
+width: clamp(375px, 100vw, 700px);
+border: 2px solid black;
+background-color: white;
+}
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--inter), sans-serif;
   font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght);
   background-image: var(--bg-grad);
+  justify-items: center;
+}
+.header{
+  font-family: var(--start2p);
+  display: flex;
+  height: 327px;
+  margin-block-start: 100px;
+  flex-direction: column;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+.header__title{
+  font-size: 49px;
+}
+.header__description{
+  margin-block-start: 20px;
+  font-size: 14px
 }
