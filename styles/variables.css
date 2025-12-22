@@ -4,6 +4,9 @@
     --wdth: 100;
     --wght: 410;
     --wght-title: 715;
+    --card-size: 18px;
+    --button-size: 14px;
+    --decor-color: black;
     --bg-grad:
     repeating-linear-gradient(
       to right,
