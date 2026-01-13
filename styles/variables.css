@@ -1,6 +1,6 @@
 :root{
-    --inter: Inter-Variable;
-    --start2p: PressStart2P;
+    --main-font: Inter-Variable;
+    --accent-font: PressStart2P;
     --wdth: 100;
     --wght: 410;
     --wght-title: 715;

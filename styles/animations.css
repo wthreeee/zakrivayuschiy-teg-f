@@ -58,15 +58,15 @@
 
 .like-icon.is-liked .contour{
     fill: var(--animation-fill-color);
-    transition: fill 0.3s linear 0s;
+    transition: fill 0.3s linear 0.06s;
 }
 .like-icon.is-liked .core{
     fill: var(--animation-fill-color);
-    transition: fill 0.3s linear 0.05s;
+    transition: fill 0.3s linear 0s;
 }
 .like-icon.is-liked .main-body{
    fill: var(--animation-fill-color);
-   transition: fill 0.3s linear 0.06s;
+   transition: fill 0.3s linear 0.05s;
 }
 
 
