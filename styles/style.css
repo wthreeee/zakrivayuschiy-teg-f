@@ -142,9 +142,9 @@
 .buttons {
   display: flex;
   align-self: end;
-  margin-block-start: 25px;
+  margin-block-start: 24px;
   margin-inline-end: 25px;
-  margin-block-end: 20px;
+  margin-block-end: 23px;
   gap: 5px;
 }
 
@@ -160,8 +160,8 @@
 }
 
 .card__icon-button {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border: 2px solid var(--mix-color);
   background-color: inherit;
   animation: heart-like;
@@ -185,6 +185,7 @@
 .save__memory {
   margin-block-start: 50px;
   justify-self: center;
+  margin-block-end: 100px;
 }
 
 .save__button {
